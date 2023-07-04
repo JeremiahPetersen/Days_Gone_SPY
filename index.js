@@ -2624,7 +2624,7 @@ const IMAGINE2 = (function () {
     return "DOWN";
   }
 })();
-//console.log("IMAGINE 2 = " + IMAGINE2);
+console.log("IMAGINE 2 = " + IMAGINE2);
 
 const IMAGINE3 = (function () {
   if (PCTresult1 >= 0.53) {
@@ -2633,7 +2633,7 @@ const IMAGINE3 = (function () {
     return "DOWN";
   }
 })();
-//console.log("IMAGINE 3 = " + IMAGINE3);
+console.log("IMAGINE 3 = " + IMAGINE3);
 
 const IMAGINE4 = (function () {
   if (PCTresult2 >= 0.53) {
@@ -2642,7 +2642,7 @@ const IMAGINE4 = (function () {
     return "DOWN";
   }
 })();
-//console.log("IMAGINE 4 = " + IMAGINE4);
+console.log("IMAGINE 4 = " + IMAGINE4);
 
 const IMAGINE5 = (function () {
   if (PCTresult1 >= 0.535) {
@@ -2651,7 +2651,7 @@ const IMAGINE5 = (function () {
     return "DOWN";
   }
 })();
-//console.log("IMAGINE 5 = " + IMAGINE5);
+console.log("IMAGINE 5 = " + IMAGINE5);
 
 const IMAGINE6 = (function () {
   if (PCTresult2 >= 0.535) {
@@ -2660,7 +2660,7 @@ const IMAGINE6 = (function () {
     return "DOWN";
   }
 })();
-//console.log("IMAGINE 6 = " + IMAGINE6);
+console.log("IMAGINE 6 = " + IMAGINE6);
 
 const IMAGINE7 = (function () {
   if (PCTresult1 >= 0.54) {
@@ -2669,7 +2669,7 @@ const IMAGINE7 = (function () {
     return "DOWN";
   }
 })();
-//console.log("IMAGINE 7 = " + IMAGINE7);
+console.log("IMAGINE 7 = " + IMAGINE7);
 
 const IMAGINE8 = (function () {
   if (PCTresult2 >= 0.54) {
@@ -2678,7 +2678,7 @@ const IMAGINE8 = (function () {
     return "DOWN";
   }
 })();
-//console.log("IMAGINE 8 = " + IMAGINE8);
+console.log("IMAGINE 8 = " + IMAGINE8);
 
 const IMAGINE9 = (function () {
   if (PCTresult1 >= 0.55) {
@@ -2687,7 +2687,7 @@ const IMAGINE9 = (function () {
     return "DOWN";
   }
 })();
-//console.log("IMAGINE 9 = " + IMAGINE9);
+console.log("IMAGINE 9 = " + IMAGINE9);
 
 // IMAGINE X = IMAGINE 1-9 AVERAGE (UP OR DOWN)
 
@@ -3104,54 +3104,54 @@ console.log("Status 8 PCT = " + spyStatusArrayResultT1);
 //console.log(Imagine15Result);
 //END IMAGINE ALGOS
 
-const dataTable = [
-  spyStatusArrayResult3,
-  spyStatusNEXTOPENUP.length,
-  spyStatusArray1.length,
-  spyStatusArrayResult,
-  spyStatusNEXTUP.length,
-  spyStatusArray1.length,
-  spyStatusArrayResultV3,
-  spyStatusNEXTOPENUPV.length,
-  spyStatusArrayV.length,
-  spyStatusArrayResultV,
-  spyStatusNEXTUPV.length,
-  spyStatusArrayV.length,
-  spyStatusArrayResultV3V,
-  spyStatusNEXTOPENUPVV.length,
-  spyStatusArrayVV.length,
-  spyStatusArrayResultVV,
-  spyStatusNEXTUPVV.length,
-  spyStatusArrayVV.length,
-  spyStatusArrayResultC1,
-  spyStatusNEXTOPENUPA1.length,
-  spyStatusArrayA1.length,
-  spyStatusArrayResultA1,
-  spyStatusNEXTUPA1.length,
-  spyStatusArrayA1.length,
-  spyStatusArrayResultF1,
-  spyStatusNEXTOPENUPD1.length,
-  spyStatusArrayD1.length,
-  spyStatusArrayResultD1,
-  spyStatusNEXTUPD1.length,
-  spyStatusArrayD1.length,
-  spyStatusArrayResultJ1,
-  spyStatusNEXTOPENUPH1.length,
-  spyStatusArrayH1.length,
-  spyStatusArrayResultH1,
-  spyStatusNEXTUPH1.length,
-  spyStatusArrayH1.length,
-  spyStatusArrayResult6,
-  spyStatusNEXTOPENUP2.length,
-  spyStatusArray5.length,
-  spyStatusArrayResult5,
-  spyStatusNEXTUP5.length,
-  spyStatusArray5.length,
-  spyStatusArrayResultT1,
-  spyStatusNEXTOPENUPR1.length,
-  spyStatusArrayR1.length,
-  spyStatusArrayResultR1,
-  spyStatusNEXTUPR1.length,
-  spyStatusArrayR1.length,
-];
-console.log(dataTable);
+// const dataTable = [
+//   spyStatusArrayResult3,
+//   spyStatusNEXTOPENUP.length,
+//   spyStatusArray1.length,
+//   spyStatusArrayResult,
+//   spyStatusNEXTUP.length,
+//   spyStatusArray1.length,
+//   spyStatusArrayResultV3,
+//   spyStatusNEXTOPENUPV.length,
+//   spyStatusArrayV.length,
+//   spyStatusArrayResultV,
+//   spyStatusNEXTUPV.length,
+//   spyStatusArrayV.length,
+//   spyStatusArrayResultV3V,
+//   spyStatusNEXTOPENUPVV.length,
+//   spyStatusArrayVV.length,
+//   spyStatusArrayResultVV,
+//   spyStatusNEXTUPVV.length,
+//   spyStatusArrayVV.length,
+//   spyStatusArrayResultC1,
+//   spyStatusNEXTOPENUPA1.length,
+//   spyStatusArrayA1.length,
+//   spyStatusArrayResultA1,
+//   spyStatusNEXTUPA1.length,
+//   spyStatusArrayA1.length,
+//   spyStatusArrayResultF1,
+//   spyStatusNEXTOPENUPD1.length,
+//   spyStatusArrayD1.length,
+//   spyStatusArrayResultD1,
+//   spyStatusNEXTUPD1.length,
+//   spyStatusArrayD1.length,
+//   spyStatusArrayResultJ1,
+//   spyStatusNEXTOPENUPH1.length,
+//   spyStatusArrayH1.length,
+//   spyStatusArrayResultH1,
+//   spyStatusNEXTUPH1.length,
+//   spyStatusArrayH1.length,
+//   spyStatusArrayResult6,
+//   spyStatusNEXTOPENUP2.length,
+//   spyStatusArray5.length,
+//   spyStatusArrayResult5,
+//   spyStatusNEXTUP5.length,
+//   spyStatusArray5.length,
+//   spyStatusArrayResultT1,
+//   spyStatusNEXTOPENUPR1.length,
+//   spyStatusArrayR1.length,
+//   spyStatusArrayResultR1,
+//   spyStatusNEXTUPR1.length,
+//   spyStatusArrayR1.length,
+// ];
+// console.log(dataTable);
