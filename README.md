@@ -20,4 +20,6 @@ Data Gathering, Algo results, and other Data are in the "Algo Data Excel Sheets"
 - [ ] Automate daily predictions
 - [ ] Automate data results
 - [ ] Refactor JavaScript components
+- [ ] Automate website
+- [ ] Create React Native App for phones/tablets
 
